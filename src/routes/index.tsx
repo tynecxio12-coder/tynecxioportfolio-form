@@ -31,11 +31,7 @@ function Index() {
     >
       <header className="mx-auto flex max-w-6xl items-center justify-between px-6 pt-8">
         <div className="flex items-center gap-4">
-          <img
-            src={logo}
-            alt="TynecXio logo"
-            className="h-20 w-20 object-contain sm:h-24 sm:w-24 md:h-28 md:w-28"
-          />
+          <img src={logo} alt="TynecXio logo" className="h-11 w-11 rounded-full object-contain" />
           <span className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
             TynecXio
           </span>
